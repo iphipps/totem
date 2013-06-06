@@ -1,0 +1,52 @@
+/***********
+******  scss/utilities/mixins/general-mixins.scss
+***********/
+
+
+
+// image replacement
+
+@mixin ir{
+	background-color: transparent;
+	border: 0;
+	color: transparent;
+	font: 0/0 a;
+	text-shadow: none;
+	}
+
+	
+// layout mixins
+
+
+
+@mixin clear {
+	clear:both;
+	display:block;
+	height:0;
+	overflow:hidden;
+	visibility:hidden;
+	width:0;
+	}
+
+@mixin clear {
+	clear:both;
+	display:block;
+	height:0;
+	overflow:hidden;
+	visibility:hidden;
+	width:0;
+	}
+
+@mixin clrfx {
+	zoom:1;
+	&:after {
+		clear:both;
+		content:' ';
+		display:block;
+		font-size:0;
+		height:0;
+		line-height:0;
+		visibility:hidden;
+		width:0;
+		}
+	}	
