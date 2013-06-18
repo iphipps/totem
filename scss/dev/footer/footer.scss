@@ -1,11 +1,12 @@
-/********************      scss/devi/footer/footer      *********************
-*********************                                   *********************
-*********************                                   *********************
-*********************                                   *********************/
 
+
+@include bigflag(scss/dev/footer/footer);
+
+@include flag(scss/dev/footer/_global-footer);
 
 @import '_global-footer';
 
+@include flag(scss/dev/footer/_home-footer);
 
 @import '_home-footer';
 

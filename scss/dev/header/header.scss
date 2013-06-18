@@ -1,10 +1,14 @@
-/********************      scss/devi/header/header      *********************
-*********************                                   *********************
-*********************                                   *********************
-*********************                                   *********************/
+
+@include bigflag(scss/dev/header/header);
+
+@include flag(scss/dev/header/_global-header);
 
 @import '_global-header';
 
+@include flag(scss/dev/header/_home-header);
+
 @import '_home-header';
+
+@include flag(scss/dev/header/_login-header);
 
 @import '_login-header';

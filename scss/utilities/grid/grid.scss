@@ -1,5 +1,4 @@
-/***********
-******  scss/utilities/grid/grid.scss
-***********/
+@include bigflag(scss/utilities/grid/grid);
+
 
 @import '_grid-globals';

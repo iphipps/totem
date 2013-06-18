@@ -1,11 +1,11 @@
-/********************      scss/devi/middle/middle      *********************
-*********************                                   *********************
-*********************                                   *********************
-*********************                                   *********************/
 
+@include bigflag(scss/devi/middle/middle );
+
+@include flag(scss/devi/middle/_global-middle);
 
 @import 'global-middle';
 
+@include flag(scss/devi/middle/_home-middle);
 
 @import 'home-middle';
 

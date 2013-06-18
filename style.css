@@ -360,17 +360,11 @@ table {
 /***********
 ******  scss/vendor/plugins.scss
 ***********/
-/********************      scss/utilities      *********************
-*********************                          *********************
-*********************                          *********************
-*********************                          *********************/
+/*end vendor styles*/
 /***********
 ******  scss/utilities/global-utility.scss
 ***********/
-/***********
-******  scss/utilities/variables.scss
-***********/
-/*for body background*/
+/*color variables*/
 .blue-b {
   background: blue; }
 
@@ -388,25 +382,28 @@ table {
 *********************                                 *********************
 *********************                                 *********************/
 /***********
-******  scss/utilities/mixins/general-mixins.scss
+******  scss/middle/header/scssfuck.scss
+***********/
+/********************      scss/utilities.scss      *********************
+*********************      scss/utilities.scss      *********************
+*********************      scss/utilities.scss      *********************
+*********************      scss/utilities.scss      *********************/
+/********************      scss/utilities/type/type.scss      *********************
+*********************      scss/utilities/type/type.scss      *********************
+*********************      scss/utilities/type/type.scss      *********************
+*********************      scss/utilities/type/type.scss      *********************/
+/***********
+******  scss/utilities/type/_typography.scss
 ***********/
 /***********
-******  scss/utilities/mixins/_grid-mixins.scss
+******  scss/utilities/type/_linktype.scss
 ***********/
+/********************      scss/utilities/grid/grid.scss      *********************
+*********************      scss/utilities/grid/grid.scss      *********************
+*********************      scss/utilities/grid/grid.scss      *********************
+*********************      scss/utilities/grid/grid.scss      *********************/
 /***********
-******  scss/utilities/type/type.scss
-***********/
-/***********
-******  scss/utilities/type/typography.scss
-***********/
-/***********
-******  scss/utilities/type/linktype.scss
-***********/
-/***********
-******  scss/utilities/grid/grid.scss
-***********/
-/***********
-******  scss/utilities/grid/grid_globals.scss
+******  scss/utilities/grid/_grid-globals.scss
 ***********/
 /*sticky footer*/
 html {
@@ -437,72 +434,79 @@ body:before {
   margin-top: -200px;
   clear: both; }
 
-/********************      scss/devi/utilities/utilies     *********************
-*********************                                      *********************
-*********************                                      *********************
-*********************                                      *********************/
+/********************      scss/utilities/modules/modules.scss      *********************
+*********************      scss/utilities/modules/modules.scss      *********************
+*********************      scss/utilities/modules/modules.scss      *********************
+*********************      scss/utilities/modules/modules.scss      *********************/
+/********************      scss/dev/utilities/utilies.scss      *********************
+*********************      scss/dev/utilities/utilies.scss      *********************
+*********************      scss/dev/utilities/utilies.scss      *********************
+*********************      scss/dev/utilities/utilies.scss      *********************/
 /***********
-******  scss/dev/utilities/global-utility.scss
+******  scss/dev/utilities/_global-utilies.scss
 ***********/
 /***********
-******  scss/devi/utilities/variables.scss
+******  scss/dev/utilities/_typography.scss
+***********/
+/********************      scss/dev/header/header.scss      *********************
+*********************      scss/dev/header/header.scss      *********************
+*********************      scss/dev/header/header.scss      *********************
+*********************      scss/dev/header/header.scss      *********************/
+/***********
+******  scss/dev/header/_global-header.scss
 ***********/
 /***********
-******  scss/devi/utilities/mixins.scss
+******  scss/dev/header/_home-header.scss
 ***********/
 /***********
-******  scss/devi/utilities/typography.scss
+******  scss/dev/header/_login-header.scss
 ***********/
-/********************      scss/devi/header/header      *********************
-*********************                                   *********************
-*********************                                   *********************
-*********************                                   *********************/
+/********************      scss/devi/middle/middle.scss      *********************
+*********************      scss/devi/middle/middle.scss      *********************
+*********************      scss/devi/middle/middle.scss      *********************
+*********************      scss/devi/middle/middle.scss      *********************/
 /***********
-******  scss/dev/header/global-header.scss
+******  scss/devi/middle/_global-middle.scss
 ***********/
-/***********
-******  scss/dev/header/home-header.scss
-***********/
-/***********
-******  scss/dev/header/login-header.scss
-***********/
-/********************      scss/devi/middle/middle      *********************
-*********************                                   *********************
-*********************                                   *********************
-*********************                                   *********************/
 /***********
 ******  scss/dev/middle/global-middle.scss
 ***********/
 /***********
+******  scss/devi/middle/_home-middle.scss
+***********/
+/***********
 ******  scss/dev/middle/home-middle.scss
 ***********/
-/********************      scss/devi/footer/footer      *********************
-*********************                                   *********************
-*********************                                   *********************
-*********************                                   *********************/
+/********************      scss/dev/footer/footer.scss      *********************
+*********************      scss/dev/footer/footer.scss      *********************
+*********************      scss/dev/footer/footer.scss      *********************
+*********************      scss/dev/footer/footer.scss      *********************/
 /***********
-******  scss/dev/footer/global-footer.scss
+******  scss/dev/footer/_global-footer.scss
 ***********/
 /***********
-******  scss/dev/footer/home-footer.scss
+******  scss/dev/footer/_home-footer.scss
 ***********/
-/********************      scss/dev/blocks/block      *********************
-*********************                                  *********************
-*********************                                  *********************
-*********************                                  *********************/
-/******
-***  scss/dev/blocks/_globals-block
-******/
+/********************      scss/dev/blocks/block.scss      *********************
+*********************      scss/dev/blocks/block.scss      *********************
+*********************      scss/dev/blocks/block.scss      *********************
+*********************      scss/dev/blocks/block.scss      *********************/
 /***********
-******  scss/dev/blocks/globals-block.scss
+******  scss/dev/blocks/_globals-block.scss
 ***********/
-/******
-***  scss/dev/blocks/_contact-block
-******/
-/********************      scss/qa/qa      *********************
-*********************                      *********************
-*********************                      *********************
-*********************                      *********************/
+/***********
+******  scss/dev/blocks/_social-block.scss
+***********/
+/***********
+******  scss/dev/blocks/_contact-block.scss
+***********/
+/********************      scss/qa/qa.scss      *********************
+*********************      scss/qa/qa.scss      *********************
+*********************      scss/qa/qa.scss      *********************
+*********************      scss/qa/qa.scss      *********************/
+/***********
+******  scss/qa/_qa-i.scss
+***********/
 /***********
 ******  scss/qa/qa-i
 ***********/

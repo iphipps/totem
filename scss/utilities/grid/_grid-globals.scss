@@ -1,16 +1,9 @@
-/***********
-******  scss/utilities/grid/grid_globals.scss
-***********/
-
+@include flag(scss/utilities/grid/_grid-globals);
 /*sticky footer*/
 $footer-height: 200px;//200 as an example
 
 html{
   height:100%;
-  
-
-
-
 
 }
 

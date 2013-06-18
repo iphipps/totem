@@ -1,8 +1,19 @@
+
+
+@mixin flag($file){
 /***********
-******  scss/utilities/mixins/general-mixins.scss
+******  #{$file}.scss
 ***********/
+}
 
+@mixin bigflag($file){
+/********************      #{$file}.scss      *********************
+*********************      #{$file}.scss      *********************
+*********************      #{$file}.scss      *********************
+*********************      #{$file}.scss      *********************/
+}
 
+@include flag(scss/middle/header/scssfuck);
 
 // image replacement
 

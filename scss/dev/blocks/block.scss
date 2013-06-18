@@ -1,12 +1,16 @@
-/********************      scss/dev/blocks/block      *********************
-*********************                                  *********************
-*********************                                  *********************
-*********************                                  *********************/
 
+
+@include bigflag(scss/dev/blocks/block);
 //for pervasive block like items
+
+@include flag(scss/dev/blocks/_globals-block);
 
 @import '_globals-block';
 
+@include flag(scss/dev/blocks/_social-block);
+
 @import '_social-block';
+
+@include flag(scss/dev/blocks/_contact-block);
 
 @import '_contact-block';
